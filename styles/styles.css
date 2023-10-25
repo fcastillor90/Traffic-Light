@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
     align-items: center;
 }
 .post{
@@ -30,30 +31,77 @@ body{
 .red-light{
     width: 150px;
     height: 150px;
-    background: red;
+/*     background: rgb(240, 7, 7); */
     border-radius: 100px;
     margin-top: 10px;
     justify-content: center;
     display: flex;
     align-items: center;
+    border: solid darkgray;
+
 }
 .yellow-light{
     width: 150px;
     height: 150px;
-    background: yellow;
+    background-color:black;
     border-radius: 100px;
     margin-top: 10px;
     justify-content: center;
     display: flex;
     align-items: center;
+    border: solid darkgray;
+
 }
 .green-light{
     width: 150px;
     height: 150px;
-    background: green;
+    background-color: black;
     border-radius: 100px;
     margin-top: 10px;
     justify-content: center;
     display: flex;
     align-items: center;
+    border: solid darkgray;
+}
+
+.button-section{
+    padding-right: 5%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stopButton{
+    width: 200px;
+height: 40px;
+background: red;
+}
+
+#slowButton{
+margin-top: 20%;
+width: 200px;
+height: 40px;
+background-color: yellow;
+}
+
+#goButton{
+margin-top: 20%;
+width: 200px;
+height: 40px;
+background-color: green;
+}
+
+#trafficOff{
+    margin-top: 20%;
+width: 200px;
+height: 40px;
+background-color:gray;
+}
+
+#surprise{
+    margin-top: 20%;
+    width: 200px;
+    height: 40px;
+    background-color:rgb(209, 128, 198);
 }
